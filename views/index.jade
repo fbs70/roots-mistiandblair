@@ -4,6 +4,5 @@ block content
   h1 My Wordpress Blog using Roots
 
   ul
-  for post, i in wordpress.post
-    if i > 1
-      li: a(href=post._url)= post.title
+  for post in wordpress.post
+    li: a(href=post._url)= post.title

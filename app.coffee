@@ -14,7 +14,7 @@ module.exports =
     wordpress
       site: 'mistiandblair.shotlow.com'
       post_types:
-        post: { template: 'views/_single_post.jade', number: 53 }
+        post: { template: 'views/_single_post.jade', number: 100 }
   ]
 
   stylus:
